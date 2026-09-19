@@ -1,0 +1,23 @@
+{
+  "name": "portname",
+  "version": "0.1.0",
+  "description": "Local development reverse-proxy: replace dynamic ports with stable https://<name>.localhost URLs",
+  "type": "module",
+  "bin": {
+    "portname": "bin/portname.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "node-forge": "^1.3.1"
+  },
+  "license": "MIT"
+}
